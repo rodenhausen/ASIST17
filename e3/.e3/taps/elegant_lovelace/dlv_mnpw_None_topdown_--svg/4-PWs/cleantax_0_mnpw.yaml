@@ -1,0 +1,442 @@
+CEN.Northeast:
+  concept: Northeast
+  group: CEN
+CEN.South:
+  concept: South
+  group: CEN
+CEN.West:
+  concept: West
+  group: CEN
+NDC.Northeast:
+  concept: Northeast
+  group: NDC
+NDC.Southeast:
+  concept: Southeast
+  group: NDC
+NDC.Southwest:
+  concept: Southwest
+  group: NDC
+NDC.West:
+  concept: West
+  group: NDC
+congruent.CEN.AL\nNDC.AL:
+  concept: CEN.AL\nNDC.AL
+  group: congruent
+congruent.CEN.AR\nNDC.AR:
+  concept: CEN.AR\nNDC.AR
+  group: congruent
+congruent.CEN.AZ\nNDC.AZ:
+  concept: CEN.AZ\nNDC.AZ
+  group: congruent
+congruent.CEN.CA\nNDC.CA:
+  concept: CEN.CA\nNDC.CA
+  group: congruent
+congruent.CEN.CO\nNDC.CO:
+  concept: CEN.CO\nNDC.CO
+  group: congruent
+congruent.CEN.CT\nNDC.CT:
+  concept: CEN.CT\nNDC.CT
+  group: congruent
+congruent.CEN.DC\nNDC.DC:
+  concept: CEN.DC\nNDC.DC
+  group: congruent
+congruent.CEN.DE\nNDC.DE:
+  concept: CEN.DE\nNDC.DE
+  group: congruent
+congruent.CEN.FL\nNDC.FL:
+  concept: CEN.FL\nNDC.FL
+  group: congruent
+congruent.CEN.GA\nNDC.GA:
+  concept: CEN.GA\nNDC.GA
+  group: congruent
+congruent.CEN.IA\nNDC.IA:
+  concept: CEN.IA\nNDC.IA
+  group: congruent
+congruent.CEN.ID\nNDC.ID:
+  concept: CEN.ID\nNDC.ID
+  group: congruent
+congruent.CEN.IL\nNDC.IL:
+  concept: CEN.IL\nNDC.IL
+  group: congruent
+congruent.CEN.IN\nNDC.IN:
+  concept: CEN.IN\nNDC.IN
+  group: congruent
+congruent.CEN.KS\nNDC.KS:
+  concept: CEN.KS\nNDC.KS
+  group: congruent
+congruent.CEN.KY\nNDC.KY:
+  concept: CEN.KY\nNDC.KY
+  group: congruent
+congruent.CEN.LA\nNDC.LA:
+  concept: CEN.LA\nNDC.LA
+  group: congruent
+congruent.CEN.MA\nNDC.MA:
+  concept: CEN.MA\nNDC.MA
+  group: congruent
+congruent.CEN.MD\nNDC.MD:
+  concept: CEN.MD\nNDC.MD
+  group: congruent
+congruent.CEN.ME\nNDC.ME:
+  concept: CEN.ME\nNDC.ME
+  group: congruent
+congruent.CEN.MI\nNDC.MI:
+  concept: CEN.MI\nNDC.MI
+  group: congruent
+congruent.CEN.MN\nNDC.MN:
+  concept: CEN.MN\nNDC.MN
+  group: congruent
+congruent.CEN.MO\nNDC.MO:
+  concept: CEN.MO\nNDC.MO
+  group: congruent
+congruent.CEN.MS\nNDC.MS:
+  concept: CEN.MS\nNDC.MS
+  group: congruent
+congruent.CEN.MT\nNDC.MT:
+  concept: CEN.MT\nNDC.MT
+  group: congruent
+congruent.CEN.Midwest\nNDC.Midwest:
+  concept: CEN.Midwest\nNDC.Midwest
+  group: congruent
+congruent.CEN.NC\nNDC.NC:
+  concept: CEN.NC\nNDC.NC
+  group: congruent
+congruent.CEN.ND\nNDC.ND:
+  concept: CEN.ND\nNDC.ND
+  group: congruent
+congruent.CEN.NE\nNDC.NE:
+  concept: CEN.NE\nNDC.NE
+  group: congruent
+congruent.CEN.NH\nNDC.NH:
+  concept: CEN.NH\nNDC.NH
+  group: congruent
+congruent.CEN.NJ\nNDC.NJ:
+  concept: CEN.NJ\nNDC.NJ
+  group: congruent
+congruent.CEN.NM\nNDC.NM:
+  concept: CEN.NM\nNDC.NM
+  group: congruent
+congruent.CEN.NV\nNDC.NV:
+  concept: CEN.NV\nNDC.NV
+  group: congruent
+congruent.CEN.NY\nNDC.NY:
+  concept: CEN.NY\nNDC.NY
+  group: congruent
+congruent.CEN.OH\nNDC.OH:
+  concept: CEN.OH\nNDC.OH
+  group: congruent
+congruent.CEN.OK\nNDC.OK:
+  concept: CEN.OK\nNDC.OK
+  group: congruent
+congruent.CEN.OR\nNDC.OR:
+  concept: CEN.OR\nNDC.OR
+  group: congruent
+congruent.CEN.PA\nNDC.PA:
+  concept: CEN.PA\nNDC.PA
+  group: congruent
+congruent.CEN.RI\nNDC.RI:
+  concept: CEN.RI\nNDC.RI
+  group: congruent
+congruent.CEN.SC\nNDC.SC:
+  concept: CEN.SC\nNDC.SC
+  group: congruent
+congruent.CEN.SD\nNDC.SD:
+  concept: CEN.SD\nNDC.SD
+  group: congruent
+congruent.CEN.TN\nNDC.TN:
+  concept: CEN.TN\nNDC.TN
+  group: congruent
+congruent.CEN.TX\nNDC.TX:
+  concept: CEN.TX\nNDC.TX
+  group: congruent
+congruent.CEN.USA\nNDC.USA:
+  concept: CEN.USA\nNDC.USA
+  group: congruent
+congruent.CEN.UT\nNDC.UT:
+  concept: CEN.UT\nNDC.UT
+  group: congruent
+congruent.CEN.VA\nNDC.VA:
+  concept: CEN.VA\nNDC.VA
+  group: congruent
+congruent.CEN.VT\nNDC.VT:
+  concept: CEN.VT\nNDC.VT
+  group: congruent
+congruent.CEN.WA\nNDC.WA:
+  concept: CEN.WA\nNDC.WA
+  group: congruent
+congruent.CEN.WI\nNDC.WI:
+  concept: CEN.WI\nNDC.WI
+  group: congruent
+congruent.CEN.WV\nNDC.WV:
+  concept: CEN.WV\nNDC.WV
+  group: congruent
+congruent.CEN.WY\nNDC.WY:
+  concept: CEN.WY\nNDC.WY
+  group: congruent
+CEN.AL\nNDC.AL_NDC.Southeast:
+  label: is_a (input)
+  s: CEN.AL\nNDC.AL
+  t: NDC.Southeast
+CEN.AR\nNDC.AR_NDC.Southeast:
+  label: is_a (input)
+  s: CEN.AR\nNDC.AR
+  t: NDC.Southeast
+CEN.AZ\nNDC.AZ_CEN.West:
+  label: is_a (input)
+  s: CEN.AZ\nNDC.AZ
+  t: CEN.West
+CEN.AZ\nNDC.AZ_NDC.Southwest:
+  label: is_a (input)
+  s: CEN.AZ\nNDC.AZ
+  t: NDC.Southwest
+CEN.CA\nNDC.CA_NDC.West:
+  label: is_a (input)
+  s: CEN.CA\nNDC.CA
+  t: NDC.West
+CEN.CO\nNDC.CO_NDC.West:
+  label: is_a (input)
+  s: CEN.CO\nNDC.CO
+  t: NDC.West
+CEN.CT\nNDC.CT_CEN.Northeast:
+  label: is_a (input)
+  s: CEN.CT\nNDC.CT
+  t: CEN.Northeast
+CEN.DC\nNDC.DC_CEN.South:
+  label: is_a (input)
+  s: CEN.DC\nNDC.DC
+  t: CEN.South
+CEN.DC\nNDC.DC_NDC.Northeast:
+  label: is_a (input)
+  s: CEN.DC\nNDC.DC
+  t: NDC.Northeast
+CEN.DE\nNDC.DE_CEN.South:
+  label: is_a (input)
+  s: CEN.DE\nNDC.DE
+  t: CEN.South
+CEN.DE\nNDC.DE_NDC.Northeast:
+  label: is_a (input)
+  s: CEN.DE\nNDC.DE
+  t: NDC.Northeast
+CEN.FL\nNDC.FL_NDC.Southeast:
+  label: is_a (input)
+  s: CEN.FL\nNDC.FL
+  t: NDC.Southeast
+CEN.GA\nNDC.GA_NDC.Southeast:
+  label: is_a (input)
+  s: CEN.GA\nNDC.GA
+  t: NDC.Southeast
+CEN.IA\nNDC.IA_CEN.Midwest\nNDC.Midwest:
+  label: is_a (input)
+  s: CEN.IA\nNDC.IA
+  t: CEN.Midwest\nNDC.Midwest
+CEN.ID\nNDC.ID_NDC.West:
+  label: is_a (input)
+  s: CEN.ID\nNDC.ID
+  t: NDC.West
+CEN.IL\nNDC.IL_CEN.Midwest\nNDC.Midwest:
+  label: is_a (input)
+  s: CEN.IL\nNDC.IL
+  t: CEN.Midwest\nNDC.Midwest
+CEN.IN\nNDC.IN_CEN.Midwest\nNDC.Midwest:
+  label: is_a (input)
+  s: CEN.IN\nNDC.IN
+  t: CEN.Midwest\nNDC.Midwest
+CEN.KS\nNDC.KS_CEN.Midwest\nNDC.Midwest:
+  label: is_a (input)
+  s: CEN.KS\nNDC.KS
+  t: CEN.Midwest\nNDC.Midwest
+CEN.KY\nNDC.KY_NDC.Southeast:
+  label: is_a (input)
+  s: CEN.KY\nNDC.KY
+  t: NDC.Southeast
+CEN.LA\nNDC.LA_NDC.Southeast:
+  label: is_a (input)
+  s: CEN.LA\nNDC.LA
+  t: NDC.Southeast
+CEN.MA\nNDC.MA_CEN.Northeast:
+  label: is_a (input)
+  s: CEN.MA\nNDC.MA
+  t: CEN.Northeast
+CEN.MD\nNDC.MD_CEN.South:
+  label: is_a (input)
+  s: CEN.MD\nNDC.MD
+  t: CEN.South
+CEN.MD\nNDC.MD_NDC.Northeast:
+  label: is_a (input)
+  s: CEN.MD\nNDC.MD
+  t: NDC.Northeast
+CEN.ME\nNDC.ME_CEN.Northeast:
+  label: is_a (input)
+  s: CEN.ME\nNDC.ME
+  t: CEN.Northeast
+CEN.MI\nNDC.MI_CEN.Midwest\nNDC.Midwest:
+  label: is_a (input)
+  s: CEN.MI\nNDC.MI
+  t: CEN.Midwest\nNDC.Midwest
+CEN.MN\nNDC.MN_CEN.Midwest\nNDC.Midwest:
+  label: is_a (input)
+  s: CEN.MN\nNDC.MN
+  t: CEN.Midwest\nNDC.Midwest
+CEN.MO\nNDC.MO_CEN.Midwest\nNDC.Midwest:
+  label: is_a (input)
+  s: CEN.MO\nNDC.MO
+  t: CEN.Midwest\nNDC.Midwest
+CEN.MS\nNDC.MS_NDC.Southeast:
+  label: is_a (input)
+  s: CEN.MS\nNDC.MS
+  t: NDC.Southeast
+CEN.MT\nNDC.MT_NDC.West:
+  label: is_a (input)
+  s: CEN.MT\nNDC.MT
+  t: NDC.West
+CEN.Midwest\nNDC.Midwest_CEN.USA\nNDC.USA:
+  label: is_a (input)
+  s: CEN.Midwest\nNDC.Midwest
+  t: CEN.USA\nNDC.USA
+CEN.NC\nNDC.NC_NDC.Southeast:
+  label: is_a (input)
+  s: CEN.NC\nNDC.NC
+  t: NDC.Southeast
+CEN.ND\nNDC.ND_CEN.Midwest\nNDC.Midwest:
+  label: is_a (input)
+  s: CEN.ND\nNDC.ND
+  t: CEN.Midwest\nNDC.Midwest
+CEN.NE\nNDC.NE_CEN.Midwest\nNDC.Midwest:
+  label: is_a (input)
+  s: CEN.NE\nNDC.NE
+  t: CEN.Midwest\nNDC.Midwest
+CEN.NH\nNDC.NH_CEN.Northeast:
+  label: is_a (input)
+  s: CEN.NH\nNDC.NH
+  t: CEN.Northeast
+CEN.NJ\nNDC.NJ_CEN.Northeast:
+  label: is_a (input)
+  s: CEN.NJ\nNDC.NJ
+  t: CEN.Northeast
+CEN.NM\nNDC.NM_CEN.West:
+  label: is_a (input)
+  s: CEN.NM\nNDC.NM
+  t: CEN.West
+CEN.NM\nNDC.NM_NDC.Southwest:
+  label: is_a (input)
+  s: CEN.NM\nNDC.NM
+  t: NDC.Southwest
+CEN.NV\nNDC.NV_NDC.West:
+  label: is_a (input)
+  s: CEN.NV\nNDC.NV
+  t: NDC.West
+CEN.NY\nNDC.NY_CEN.Northeast:
+  label: is_a (input)
+  s: CEN.NY\nNDC.NY
+  t: CEN.Northeast
+CEN.Northeast_NDC.Northeast:
+  label: is_a (inferred)
+  s: CEN.Northeast
+  t: NDC.Northeast
+CEN.OH\nNDC.OH_CEN.Midwest\nNDC.Midwest:
+  label: is_a (input)
+  s: CEN.OH\nNDC.OH
+  t: CEN.Midwest\nNDC.Midwest
+CEN.OK\nNDC.OK_CEN.South:
+  label: is_a (input)
+  s: CEN.OK\nNDC.OK
+  t: CEN.South
+CEN.OK\nNDC.OK_NDC.Southwest:
+  label: is_a (input)
+  s: CEN.OK\nNDC.OK
+  t: NDC.Southwest
+CEN.OR\nNDC.OR_NDC.West:
+  label: is_a (input)
+  s: CEN.OR\nNDC.OR
+  t: NDC.West
+CEN.PA\nNDC.PA_CEN.Northeast:
+  label: is_a (input)
+  s: CEN.PA\nNDC.PA
+  t: CEN.Northeast
+CEN.RI\nNDC.RI_CEN.Northeast:
+  label: is_a (input)
+  s: CEN.RI\nNDC.RI
+  t: CEN.Northeast
+CEN.SC\nNDC.SC_NDC.Southeast:
+  label: is_a (input)
+  s: CEN.SC\nNDC.SC
+  t: NDC.Southeast
+CEN.SD\nNDC.SD_CEN.Midwest\nNDC.Midwest:
+  label: is_a (input)
+  s: CEN.SD\nNDC.SD
+  t: CEN.Midwest\nNDC.Midwest
+CEN.South_CEN.USA\nNDC.USA:
+  label: is_a (input)
+  s: CEN.South
+  t: CEN.USA\nNDC.USA
+CEN.South_NDC.Northeast:
+  label: overlaps (inferred)
+  s: CEN.South
+  t: NDC.Northeast
+CEN.South_NDC.Southwest:
+  label: overlaps (inferred)
+  s: CEN.South
+  t: NDC.Southwest
+CEN.TN\nNDC.TN_NDC.Southeast:
+  label: is_a (input)
+  s: CEN.TN\nNDC.TN
+  t: NDC.Southeast
+CEN.TX\nNDC.TX_CEN.South:
+  label: is_a (input)
+  s: CEN.TX\nNDC.TX
+  t: CEN.South
+CEN.TX\nNDC.TX_NDC.Southwest:
+  label: is_a (input)
+  s: CEN.TX\nNDC.TX
+  t: NDC.Southwest
+CEN.UT\nNDC.UT_NDC.West:
+  label: is_a (input)
+  s: CEN.UT\nNDC.UT
+  t: NDC.West
+CEN.VA\nNDC.VA_NDC.Southeast:
+  label: is_a (input)
+  s: CEN.VA\nNDC.VA
+  t: NDC.Southeast
+CEN.VT\nNDC.VT_CEN.Northeast:
+  label: is_a (input)
+  s: CEN.VT\nNDC.VT
+  t: CEN.Northeast
+CEN.WA\nNDC.WA_NDC.West:
+  label: is_a (input)
+  s: CEN.WA\nNDC.WA
+  t: NDC.West
+CEN.WI\nNDC.WI_CEN.Midwest\nNDC.Midwest:
+  label: is_a (input)
+  s: CEN.WI\nNDC.WI
+  t: CEN.Midwest\nNDC.Midwest
+CEN.WV\nNDC.WV_NDC.Southeast:
+  label: is_a (input)
+  s: CEN.WV\nNDC.WV
+  t: NDC.Southeast
+CEN.WY\nNDC.WY_NDC.West:
+  label: is_a (input)
+  s: CEN.WY\nNDC.WY
+  t: NDC.West
+CEN.West_CEN.USA\nNDC.USA:
+  label: is_a (input)
+  s: CEN.West
+  t: CEN.USA\nNDC.USA
+CEN.West_NDC.Southwest:
+  label: overlaps (inferred)
+  s: CEN.West
+  t: NDC.Southwest
+NDC.Northeast_CEN.USA\nNDC.USA:
+  label: is_a (input)
+  s: NDC.Northeast
+  t: CEN.USA\nNDC.USA
+NDC.Southeast_CEN.South:
+  label: is_a (inferred)
+  s: NDC.Southeast
+  t: CEN.South
+NDC.Southwest_CEN.USA\nNDC.USA:
+  label: is_a (input)
+  s: NDC.Southwest
+  t: CEN.USA\nNDC.USA
+NDC.West_CEN.West:
+  label: is_a (inferred)
+  s: NDC.West
+  t: CEN.West
