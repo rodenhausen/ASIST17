@@ -17,5 +17,5 @@ In the following, three alternative ways to setup and use e3 are described. The 
 # Run the CEN vs NDC and CEN vs TZ use cases:
 To replay the story of the paper please refer to the [IPython notebook](https://github.com/rodenhausen/ASIST17/blob/master/e3/notebook.ipynb) that contains all the steps and explanations
 
-# How to use e3
+# Learn more about how to use e3
 If you want to learn more about  all the features of e3 please refer to the [e3-demos](http://github.com/EulerProject/e3-demos)
