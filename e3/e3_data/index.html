@@ -1,0 +1,285 @@
+<!-- Adapted from Mike Bostock’s Block 1093025 @ https://bl.ocks.org/mbostock/1093025 -->
+<!-- Released under the GNU General Public License, version 3. -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title id="title">
+e3 history
+  </title>
+  <style>
+   .node rect {
+  cursor: pointer;
+  fill: #fff;
+  fill-opacity: 0.8;
+  stroke: #000;
+  stroke-width: 1px;
+}
+#legend rect {
+	fill-opacity: 0.8;
+	stroke: #000;
+    stroke-width: 1px;
+}
+.node text {
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+path.link {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1px;
+}
+  </style>
+ </head>
+ <body>
+  <script id="data" type="text/json">
+   {"name": "history", "children": [{"href": "4d0e9bb996e4258945722737b0f069b34c007f89/index.html", "type": "tap", "name": "4d0e9bb996e4258945722737b0f069b34c007f89", "children": [{"endTime": "03/27/2017 03:39:33", "name": "clear", "startTime": "03/27/2017 03:39:33", "runTime": "0.81 sec.", "type": "modelCommand", "children": []}]}, {"href": "empty_tap/index.html", "type": "tap", "name": "empty_tap", "children": [{"endTime": "07/08/2017 19:58:14", "name": "load tap CEN_NDC.txt", "startTime": "07/08/2017 19:58:14", "runTime": "0.08 sec.", "type": "modelCommand", "children": []}]}, {"href": "elegant_lovelace/index.html", "type": "tap", "name": "elegant_lovelace", "children": [{"endTime": "07/08/2017 19:58:31", "name": "graph tap", "startTime": "07/08/2017 19:58:31", "runTime": "0.15 sec.", "type": "euler2Command", "children": [{"type": "commandOutput", "name": "Take a look at the produced graph.", "children": [{"href": "elegant_lovelace/graph_tap/config.txt", "type": "commandOutputFile", "name": "config.txt", "children": []}, {"href": "elegant_lovelace/graph_tap/graph_tap.svg", "type": "commandOutputFile", "name": "graph_tap.svg", "children": []}, {"href": "elegant_lovelace/graph_tap/stdout.txt", "type": "commandOutputFile", "name": "stdout.txt", "children": []}]}]}, {"endTime": "07/08/2017 19:59:45", "name": "graph worlds", "startTime": "07/08/2017 19:58:41", "runTime": "63.68 sec.", "type": "euler2Command", "children": [{"type": "commandOutput", "name": "1 worlds have been produced.", "children": [{"href": "elegant_lovelace/graph_worlds/config.txt", "type": "commandOutputFile", "name": "config.txt", "children": []}, {"href": "elegant_lovelace/graph_worlds/graph_worlds_0_mnpw.svg", "type": "commandOutputFile", "name": "graph_worlds_0_mnpw.svg", "children": []}, {"href": "elegant_lovelace/graph_worlds/most_informative_relations.html", "type": "commandOutputFile", "name": "most_informative_relations.html", "children": []}, {"href": "elegant_lovelace/graph_worlds/stdout.txt", "type": "commandOutputFile", "name": "stdout.txt", "children": []}]}]}, {"endTime": "07/08/2017 19:59:59", "name": "load tap CEN_TZ.txt", "startTime": "07/08/2017 19:59:59", "runTime": "0.06 sec.", "type": "modelCommand", "children": []}]}, {"href": "eloquent_poincare/index.html", "type": "tap", "name": "eloquent_poincare", "children": [{"endTime": "07/08/2017 20:00:12", "name": "graph tap", "startTime": "07/08/2017 20:00:12", "runTime": "0.14 sec.", "type": "euler2Command", "children": [{"type": "commandOutput", "name": "Take a look at the produced graph.", "children": [{"href": "eloquent_poincare/graph_tap/config.txt", "type": "commandOutputFile", "name": "config.txt", "children": []}, {"href": "eloquent_poincare/graph_tap/graph_tap.svg", "type": "commandOutputFile", "name": "graph_tap.svg", "children": []}, {"href": "eloquent_poincare/graph_tap/stdout.txt", "type": "commandOutputFile", "name": "stdout.txt", "children": []}]}]}, {"endTime": "07/08/2017 20:01:29", "name": "graph worlds", "startTime": "07/08/2017 20:01:28", "runTime": "0.39 sec.", "type": "euler2Command", "children": [{"type": "commandOutput", "name": "1 worlds have been produced.", "children": [{"href": "eloquent_poincare/graph_worlds/config.txt", "type": "commandOutputFile", "name": "config.txt", "children": []}, {"href": "eloquent_poincare/graph_worlds/graph_worlds_0_mnpw.svg", "type": "commandOutputFile", "name": "graph_worlds_0_mnpw.svg", "children": []}, {"href": "eloquent_poincare/graph_worlds/most_informative_relations.html", "type": "commandOutputFile", "name": "most_informative_relations.html", "children": []}, {"href": "eloquent_poincare/graph_worlds/stdout.txt", "type": "commandOutputFile", "name": "stdout.txt", "children": []}]}]}]}]}
+  </script>
+  <script charset="utf-8" src="https://d3js.org/d3.v3.min.js">
+  </script>
+  <script>
+   var margin = {top: 30, right: 20, bottom: 30, left: 20},
+    width = 960 - margin.left - margin.right,
+    barHeight = 20,
+    barWidth = width * .6;
+
+var colors = d3.scale.category10();
+var domain = ["tap", "modelCommand", "euler2Command", "commandOutput", "commandOutputFile", "miscCommand"];
+var collapse = {}
+var readableDomain = {}
+readableDomain["tap"] = "Tap"
+readableDomain["modelCommand"] = "Tap Command"
+readableDomain["euler2Command"] = "Reasoning Command"
+readableDomain["commandOutput"] = "Command's Output"
+readableDomain["commandOutputFile"] = "Command's Output Files"
+readableDomain["miscCommand"] = "Misc. Command"
+colors.domain(domain);
+domain.forEach(function(x) {
+	collapse[x] = "collapse";
+});
+
+var i = 0,
+    duration = 400,
+    root;
+
+var tree = d3.layout.tree()
+    .nodeSize([0, 20]);
+
+var diagonal = d3.svg.diagonal()
+    .projection(function(d) { return [d.y, d.x]; });
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var root = JSON.parse(document.getElementById('data').innerHTML);
+ 
+root.x0 = 0;
+root.y0 = 0;
+update(root = root);
+
+function update(source) {
+
+  // Compute the flattened node list. TODO use d3.layout.hierarchy.
+  var nodes = tree.nodes(root);
+
+  var height = Math.max(500, nodes.length * barHeight + margin.top + margin.bottom);
+
+  d3.select("svg").transition()
+      .duration(duration)
+      .attr("height", height);
+
+  d3.select(self.frameElement).transition()
+      .duration(duration)
+      .style("height", height + "px");
+
+  // Compute the "layout".
+  nodes.forEach(function(n, i) {
+    n.x = i * barHeight;
+  });
+
+  // Update the nodes…
+  var node = svg.selectAll("g.node")
+      .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  var nodeEnter = node.enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+      .style("opacity", 1e-6);
+
+  // Enter any new nodes at the parent's previous position.
+  nodeEnter.append("rect")
+      .attr("y", -barHeight / 2)
+      .attr("height", barHeight)
+      .attr("width", barWidth)
+      .style("fill", function(d) { 
+			if ('type' in d) {
+				return colors(d.type) 
+			} else {
+				return "white"
+			}
+		})
+      .on("click", toggle)
+	  .on("dblclick", followLink);
+
+  nodeEnter.append("text")
+      .attr("dy", 3.5)
+      .attr("dx", 5.5)
+      .text(function(d) { 
+			if ("startTime" in d && "endTime" in d && "runTime" in d) {
+				if (d.name.length > 40) {
+					return (d.name.substring(0, 40) + " ...") + " (runtime: " + d.runTime + "; start: " + d.startTime + "; end: " + d.endTime + ")";
+				} else {
+					return d.name + " (runtime: " + d.runTime + "; start: " + d.startTime + "; end: " + d.endTime + ")";
+				}
+			}
+			if (d.name.length > 80) {
+				return d.name.substring(0, 80) + " ..."; 
+			}
+			return d.name;
+	  });
+
+  // Transition nodes to their new position.
+  nodeEnter.transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+      .style("opacity", 1);
+
+  node.transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+      .style("opacity", 1)
+      .select("rect")
+      .style("fill", function(d) { 
+	  		if ('type' in d) {
+				return colors(d.type) 
+			} else {
+				return "white"
+			}
+		});
+
+  // Transition exiting nodes to the parent's new position.
+  node.exit().transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+      .style("opacity", 1e-6)
+      .remove();
+
+  // Update the links…
+  var link = svg.selectAll("path.link")
+      .data(tree.links(nodes), function(d) { return d.target.id; });
+
+  // Enter any new links at the parent's previous position.
+  link.enter().insert("path", "g")
+      .attr("class", "link")
+      .attr("d", function(d) {
+        var o = {x: source.x0, y: source.y0};
+        return diagonal({source: o, target: o});
+      })
+      .transition()
+      .duration(duration)
+      .attr("d", diagonal);
+
+  // Transition links to their new position.
+  link.transition()
+      .duration(duration)
+      .attr("d", diagonal);
+
+  // Transition exiting nodes to the parent's new position.
+  link.exit().transition()
+      .duration(duration)
+      .attr("d", function(d) {
+        var o = {x: source.x, y: source.y};
+        return diagonal({source: o, target: o});
+      })
+      .remove();
+
+  // Stash the old positions for transition.
+  nodes.forEach(function(d) {
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+}
+
+// Toggle children on click.
+function toggle(d) {
+  if (d.children) {
+    d._children = d.children;
+    d.children = null;
+  } else {
+    d.children = d._children;
+    d._children = null;
+  }
+  update(d);
+}
+
+function followLink(d) {
+	if('href' in d) {
+		//retain possible htmlpreview.github.io prefix	
+		var currentHref = window.location.href;
+		if(currentHref.indexOf("htmlpreview.github.io") != -1) {
+			var page = currentHref.split("/").pop();
+			var location = currentHref.replace(new RegExp(page + '$'), '');
+			var newHref = location + d.href;
+			window.location.assign(newHref, '_blank');
+		} else {
+			window.location.assign(d.href, '_blank');
+		}
+	}
+}
+
+legend = svg.append("g")
+	.attr("transform", "translate(" + (width - 250) + ", 0)")
+	.attr("id", "legend");
+	
+cellWidth = 20
+gs = legend.selectAll("g")
+  .data(colors.domain());
+g = gs.enter()
+  .append("g")
+g.append("rect")
+  .attr("width", cellWidth)
+  .attr("height", cellWidth)
+  .attr("x", function (d, i) {return 0; })
+  .attr("y", function (d, i) {return i * cellWidth})
+  .style("fill", function(d) { return colors(d); })
+g.append("text")
+  .text(function(d) { return readableDomain[d]; })
+  .attr("x", function (d, i) { return cellWidth + 5; })
+  .attr("y", function (d, i) { return i * cellWidth + 15; });
+ g.append("text")
+  .attr("id", function(x) { return "collapse-" + x; })
+  .text(function(d) { return "collapse" })
+  .attr("x", function (d, i) { return cellWidth + 180; })
+  .attr("y", function (d, i) { return i * cellWidth + 15; })
+  .on("click", clickCollapse);
+ 
+function clickCollapse(d) {
+	currentValue = collapse[d];
+	var nodes = tree.nodes(root);
+	if(currentValue == "collapse") {
+		nodes.forEach(function(x) {
+			if(x.type == d) {
+				toggle(x);
+			}
+		});
+		collapse[d] = "expand";
+		g.selectAll("#collapse-" + d)
+			.text("expand");
+	} else {
+		nodes.forEach(function(x) {
+			if(x.type == d) {
+				toggle(x);
+			}
+		});
+		g.selectAll("#collapse-" + d)
+			.text("collapse");
+		collapse[d] = "collapse";
+	}
+}
+  </script>
+ </body>
+</html>
