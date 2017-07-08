@@ -1,6 +1,6 @@
 # e3
 
-# Setup of e3
+## Setup of e3
 In the following, three alternative ways to setup and use e3 are described. The order is from most to least convenient.
 1. Jupyterhub
    1. [Create an issue](https://github.com/EulerProject/e3-jupyterhub/issues) stating your github username and the wish to have an account created. Wait for response from an admin on the created issue. 
@@ -14,8 +14,8 @@ In the following, three alternative ways to setup and use e3 are described. The 
 3. Manual installation
    1. [Setup e3](https://github.com/EulerProject/e3/blob/master/README.md)
 
-# Run the CEN vs NDC and CEN vs TZ use cases:
-To replay the story of the paper please refer to the [IPython notebook](https://github.com/rodenhausen/ASIST17/blob/master/e3/notebook.ipynb) that contains all the steps and explanations
+## Run the timezone use cases
+To replay the use cases CEN vs NDC and CEN vs TZ use cases of the paper please refer to the [IPython notebook](https://github.com/rodenhausen/ASIST17/blob/master/e3/notebook.ipynb) that contains all the steps and explanations
 
-# Learn more about how to use e3
+## Learn more
 If you want to learn more about  all the features of e3 please refer to the [e3-demos](http://github.com/EulerProject/e3-demos)
