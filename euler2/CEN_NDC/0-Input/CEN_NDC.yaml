@@ -1,0 +1,951 @@
+CEN.AL:
+  concept: AL
+  group: CEN
+CEN.AR:
+  concept: AR
+  group: CEN
+CEN.AZ:
+  concept: AZ
+  group: CEN
+CEN.CA:
+  concept: CA
+  group: CEN
+CEN.CO:
+  concept: CO
+  group: CEN
+CEN.CT:
+  concept: CT
+  group: CEN
+CEN.DC:
+  concept: DC
+  group: CEN
+CEN.DE:
+  concept: DE
+  group: CEN
+CEN.FL:
+  concept: FL
+  group: CEN
+CEN.GA:
+  concept: GA
+  group: CEN
+CEN.IA:
+  concept: IA
+  group: CEN
+CEN.ID:
+  concept: ID
+  group: CEN
+CEN.IL:
+  concept: IL
+  group: CEN
+CEN.IN:
+  concept: IN
+  group: CEN
+CEN.KS:
+  concept: KS
+  group: CEN
+CEN.KY:
+  concept: KY
+  group: CEN
+CEN.LA:
+  concept: LA
+  group: CEN
+CEN.MA:
+  concept: MA
+  group: CEN
+CEN.MD:
+  concept: MD
+  group: CEN
+CEN.ME:
+  concept: ME
+  group: CEN
+CEN.MI:
+  concept: MI
+  group: CEN
+CEN.MN:
+  concept: MN
+  group: CEN
+CEN.MO:
+  concept: MO
+  group: CEN
+CEN.MS:
+  concept: MS
+  group: CEN
+CEN.MT:
+  concept: MT
+  group: CEN
+CEN.Midwest:
+  concept: Midwest
+  group: CEN
+CEN.NC:
+  concept: NC
+  group: CEN
+CEN.ND:
+  concept: ND
+  group: CEN
+CEN.NE:
+  concept: NE
+  group: CEN
+CEN.NH:
+  concept: NH
+  group: CEN
+CEN.NJ:
+  concept: NJ
+  group: CEN
+CEN.NM:
+  concept: NM
+  group: CEN
+CEN.NV:
+  concept: NV
+  group: CEN
+CEN.NY:
+  concept: NY
+  group: CEN
+CEN.Northeast:
+  concept: Northeast
+  group: CEN
+CEN.OH:
+  concept: OH
+  group: CEN
+CEN.OK:
+  concept: OK
+  group: CEN
+CEN.OR:
+  concept: OR
+  group: CEN
+CEN.PA:
+  concept: PA
+  group: CEN
+CEN.RI:
+  concept: RI
+  group: CEN
+CEN.SC:
+  concept: SC
+  group: CEN
+CEN.SD:
+  concept: SD
+  group: CEN
+CEN.South:
+  concept: South
+  group: CEN
+CEN.TN:
+  concept: TN
+  group: CEN
+CEN.TX:
+  concept: TX
+  group: CEN
+CEN.USA:
+  concept: USA
+  group: CEN
+CEN.UT:
+  concept: UT
+  group: CEN
+CEN.VA:
+  concept: VA
+  group: CEN
+CEN.VT:
+  concept: VT
+  group: CEN
+CEN.WA:
+  concept: WA
+  group: CEN
+CEN.WI:
+  concept: WI
+  group: CEN
+CEN.WV:
+  concept: WV
+  group: CEN
+CEN.WY:
+  concept: WY
+  group: CEN
+CEN.West:
+  concept: West
+  group: CEN
+NDC.AL:
+  concept: AL
+  group: NDC
+NDC.AR:
+  concept: AR
+  group: NDC
+NDC.AZ:
+  concept: AZ
+  group: NDC
+NDC.CA:
+  concept: CA
+  group: NDC
+NDC.CO:
+  concept: CO
+  group: NDC
+NDC.CT:
+  concept: CT
+  group: NDC
+NDC.DC:
+  concept: DC
+  group: NDC
+NDC.DE:
+  concept: DE
+  group: NDC
+NDC.FL:
+  concept: FL
+  group: NDC
+NDC.GA:
+  concept: GA
+  group: NDC
+NDC.IA:
+  concept: IA
+  group: NDC
+NDC.ID:
+  concept: ID
+  group: NDC
+NDC.IL:
+  concept: IL
+  group: NDC
+NDC.IN:
+  concept: IN
+  group: NDC
+NDC.KS:
+  concept: KS
+  group: NDC
+NDC.KY:
+  concept: KY
+  group: NDC
+NDC.LA:
+  concept: LA
+  group: NDC
+NDC.MA:
+  concept: MA
+  group: NDC
+NDC.MD:
+  concept: MD
+  group: NDC
+NDC.ME:
+  concept: ME
+  group: NDC
+NDC.MI:
+  concept: MI
+  group: NDC
+NDC.MN:
+  concept: MN
+  group: NDC
+NDC.MO:
+  concept: MO
+  group: NDC
+NDC.MS:
+  concept: MS
+  group: NDC
+NDC.MT:
+  concept: MT
+  group: NDC
+NDC.Midwest:
+  concept: Midwest
+  group: NDC
+NDC.NC:
+  concept: NC
+  group: NDC
+NDC.ND:
+  concept: ND
+  group: NDC
+NDC.NE:
+  concept: NE
+  group: NDC
+NDC.NH:
+  concept: NH
+  group: NDC
+NDC.NJ:
+  concept: NJ
+  group: NDC
+NDC.NM:
+  concept: NM
+  group: NDC
+NDC.NV:
+  concept: NV
+  group: NDC
+NDC.NY:
+  concept: NY
+  group: NDC
+NDC.Northeast:
+  concept: Northeast
+  group: NDC
+NDC.OH:
+  concept: OH
+  group: NDC
+NDC.OK:
+  concept: OK
+  group: NDC
+NDC.OR:
+  concept: OR
+  group: NDC
+NDC.PA:
+  concept: PA
+  group: NDC
+NDC.RI:
+  concept: RI
+  group: NDC
+NDC.SC:
+  concept: SC
+  group: NDC
+NDC.SD:
+  concept: SD
+  group: NDC
+NDC.Southeast:
+  concept: Southeast
+  group: NDC
+NDC.Southwest:
+  concept: Southwest
+  group: NDC
+NDC.TN:
+  concept: TN
+  group: NDC
+NDC.TX:
+  concept: TX
+  group: NDC
+NDC.USA:
+  concept: USA
+  group: NDC
+NDC.UT:
+  concept: UT
+  group: NDC
+NDC.VA:
+  concept: VA
+  group: NDC
+NDC.VT:
+  concept: VT
+  group: NDC
+NDC.WA:
+  concept: WA
+  group: NDC
+NDC.WI:
+  concept: WI
+  group: NDC
+NDC.WV:
+  concept: WV
+  group: NDC
+NDC.WY:
+  concept: WY
+  group: NDC
+NDC.West:
+  concept: West
+  group: NDC
+CEN.AL_CEN.South:
+  label: isa
+  s: CEN.AL
+  t: CEN.South
+CEN.AL_NDC.AL:
+  label: '='
+  s: CEN.AL
+  t: NDC.AL
+CEN.AR_CEN.South:
+  label: isa
+  s: CEN.AR
+  t: CEN.South
+CEN.AR_NDC.AR:
+  label: '='
+  s: CEN.AR
+  t: NDC.AR
+CEN.AZ_CEN.West:
+  label: isa
+  s: CEN.AZ
+  t: CEN.West
+CEN.AZ_NDC.AZ:
+  label: '='
+  s: CEN.AZ
+  t: NDC.AZ
+CEN.CA_CEN.West:
+  label: isa
+  s: CEN.CA
+  t: CEN.West
+CEN.CA_NDC.CA:
+  label: '='
+  s: CEN.CA
+  t: NDC.CA
+CEN.CO_CEN.West:
+  label: isa
+  s: CEN.CO
+  t: CEN.West
+CEN.CO_NDC.CO:
+  label: '='
+  s: CEN.CO
+  t: NDC.CO
+CEN.CT_CEN.Northeast:
+  label: isa
+  s: CEN.CT
+  t: CEN.Northeast
+CEN.CT_NDC.CT:
+  label: '='
+  s: CEN.CT
+  t: NDC.CT
+CEN.DC_CEN.South:
+  label: isa
+  s: CEN.DC
+  t: CEN.South
+CEN.DC_NDC.DC:
+  label: '='
+  s: CEN.DC
+  t: NDC.DC
+CEN.DE_CEN.South:
+  label: isa
+  s: CEN.DE
+  t: CEN.South
+CEN.DE_NDC.DE:
+  label: '='
+  s: CEN.DE
+  t: NDC.DE
+CEN.FL_CEN.South:
+  label: isa
+  s: CEN.FL
+  t: CEN.South
+CEN.FL_NDC.FL:
+  label: '='
+  s: CEN.FL
+  t: NDC.FL
+CEN.GA_CEN.South:
+  label: isa
+  s: CEN.GA
+  t: CEN.South
+CEN.GA_NDC.GA:
+  label: '='
+  s: CEN.GA
+  t: NDC.GA
+CEN.IA_CEN.Midwest:
+  label: isa
+  s: CEN.IA
+  t: CEN.Midwest
+CEN.IA_NDC.IA:
+  label: '='
+  s: CEN.IA
+  t: NDC.IA
+CEN.ID_CEN.West:
+  label: isa
+  s: CEN.ID
+  t: CEN.West
+CEN.ID_NDC.ID:
+  label: '='
+  s: CEN.ID
+  t: NDC.ID
+CEN.IL_CEN.Midwest:
+  label: isa
+  s: CEN.IL
+  t: CEN.Midwest
+CEN.IL_NDC.IL:
+  label: '='
+  s: CEN.IL
+  t: NDC.IL
+CEN.IN_CEN.Midwest:
+  label: isa
+  s: CEN.IN
+  t: CEN.Midwest
+CEN.IN_NDC.IN:
+  label: '='
+  s: CEN.IN
+  t: NDC.IN
+CEN.KS_CEN.Midwest:
+  label: isa
+  s: CEN.KS
+  t: CEN.Midwest
+CEN.KS_NDC.KS:
+  label: '='
+  s: CEN.KS
+  t: NDC.KS
+CEN.KY_CEN.South:
+  label: isa
+  s: CEN.KY
+  t: CEN.South
+CEN.KY_NDC.KY:
+  label: '='
+  s: CEN.KY
+  t: NDC.KY
+CEN.LA_CEN.South:
+  label: isa
+  s: CEN.LA
+  t: CEN.South
+CEN.LA_NDC.LA:
+  label: '='
+  s: CEN.LA
+  t: NDC.LA
+CEN.MA_CEN.Northeast:
+  label: isa
+  s: CEN.MA
+  t: CEN.Northeast
+CEN.MA_NDC.MA:
+  label: '='
+  s: CEN.MA
+  t: NDC.MA
+CEN.MD_CEN.South:
+  label: isa
+  s: CEN.MD
+  t: CEN.South
+CEN.MD_NDC.MD:
+  label: '='
+  s: CEN.MD
+  t: NDC.MD
+CEN.ME_CEN.Northeast:
+  label: isa
+  s: CEN.ME
+  t: CEN.Northeast
+CEN.ME_NDC.ME:
+  label: '='
+  s: CEN.ME
+  t: NDC.ME
+CEN.MI_CEN.Midwest:
+  label: isa
+  s: CEN.MI
+  t: CEN.Midwest
+CEN.MI_NDC.MI:
+  label: '='
+  s: CEN.MI
+  t: NDC.MI
+CEN.MN_CEN.Midwest:
+  label: isa
+  s: CEN.MN
+  t: CEN.Midwest
+CEN.MN_NDC.MN:
+  label: '='
+  s: CEN.MN
+  t: NDC.MN
+CEN.MO_CEN.Midwest:
+  label: isa
+  s: CEN.MO
+  t: CEN.Midwest
+CEN.MO_NDC.MO:
+  label: '='
+  s: CEN.MO
+  t: NDC.MO
+CEN.MS_CEN.South:
+  label: isa
+  s: CEN.MS
+  t: CEN.South
+CEN.MS_NDC.MS:
+  label: '='
+  s: CEN.MS
+  t: NDC.MS
+CEN.MT_CEN.West:
+  label: isa
+  s: CEN.MT
+  t: CEN.West
+CEN.MT_NDC.MT:
+  label: '='
+  s: CEN.MT
+  t: NDC.MT
+CEN.Midwest_CEN.USA:
+  label: isa
+  s: CEN.Midwest
+  t: CEN.USA
+CEN.NC_CEN.South:
+  label: isa
+  s: CEN.NC
+  t: CEN.South
+CEN.NC_NDC.NC:
+  label: '='
+  s: CEN.NC
+  t: NDC.NC
+CEN.ND_CEN.Midwest:
+  label: isa
+  s: CEN.ND
+  t: CEN.Midwest
+CEN.ND_NDC.ND:
+  label: '='
+  s: CEN.ND
+  t: NDC.ND
+CEN.NE_CEN.Midwest:
+  label: isa
+  s: CEN.NE
+  t: CEN.Midwest
+CEN.NE_NDC.NE:
+  label: '='
+  s: CEN.NE
+  t: NDC.NE
+CEN.NH_CEN.Northeast:
+  label: isa
+  s: CEN.NH
+  t: CEN.Northeast
+CEN.NH_NDC.NH:
+  label: '='
+  s: CEN.NH
+  t: NDC.NH
+CEN.NJ_CEN.Northeast:
+  label: isa
+  s: CEN.NJ
+  t: CEN.Northeast
+CEN.NJ_NDC.NJ:
+  label: '='
+  s: CEN.NJ
+  t: NDC.NJ
+CEN.NM_CEN.West:
+  label: isa
+  s: CEN.NM
+  t: CEN.West
+CEN.NM_NDC.NM:
+  label: '='
+  s: CEN.NM
+  t: NDC.NM
+CEN.NV_CEN.West:
+  label: isa
+  s: CEN.NV
+  t: CEN.West
+CEN.NV_NDC.NV:
+  label: '='
+  s: CEN.NV
+  t: NDC.NV
+CEN.NY_CEN.Northeast:
+  label: isa
+  s: CEN.NY
+  t: CEN.Northeast
+CEN.NY_NDC.NY:
+  label: '='
+  s: CEN.NY
+  t: NDC.NY
+CEN.Northeast_CEN.USA:
+  label: isa
+  s: CEN.Northeast
+  t: CEN.USA
+CEN.OH_CEN.Midwest:
+  label: isa
+  s: CEN.OH
+  t: CEN.Midwest
+CEN.OH_NDC.OH:
+  label: '='
+  s: CEN.OH
+  t: NDC.OH
+CEN.OK_CEN.South:
+  label: isa
+  s: CEN.OK
+  t: CEN.South
+CEN.OK_NDC.OK:
+  label: '='
+  s: CEN.OK
+  t: NDC.OK
+CEN.OR_CEN.West:
+  label: isa
+  s: CEN.OR
+  t: CEN.West
+CEN.OR_NDC.OR:
+  label: '='
+  s: CEN.OR
+  t: NDC.OR
+CEN.PA_CEN.Northeast:
+  label: isa
+  s: CEN.PA
+  t: CEN.Northeast
+CEN.PA_NDC.PA:
+  label: '='
+  s: CEN.PA
+  t: NDC.PA
+CEN.RI_CEN.Northeast:
+  label: isa
+  s: CEN.RI
+  t: CEN.Northeast
+CEN.RI_NDC.RI:
+  label: '='
+  s: CEN.RI
+  t: NDC.RI
+CEN.SC_CEN.South:
+  label: isa
+  s: CEN.SC
+  t: CEN.South
+CEN.SC_NDC.SC:
+  label: '='
+  s: CEN.SC
+  t: NDC.SC
+CEN.SD_CEN.Midwest:
+  label: isa
+  s: CEN.SD
+  t: CEN.Midwest
+CEN.SD_NDC.SD:
+  label: '='
+  s: CEN.SD
+  t: NDC.SD
+CEN.South_CEN.USA:
+  label: isa
+  s: CEN.South
+  t: CEN.USA
+CEN.TN_CEN.South:
+  label: isa
+  s: CEN.TN
+  t: CEN.South
+CEN.TN_NDC.TN:
+  label: '='
+  s: CEN.TN
+  t: NDC.TN
+CEN.TX_CEN.South:
+  label: isa
+  s: CEN.TX
+  t: CEN.South
+CEN.TX_NDC.TX:
+  label: '='
+  s: CEN.TX
+  t: NDC.TX
+CEN.UT_CEN.West:
+  label: isa
+  s: CEN.UT
+  t: CEN.West
+CEN.UT_NDC.UT:
+  label: '='
+  s: CEN.UT
+  t: NDC.UT
+CEN.VA_CEN.South:
+  label: isa
+  s: CEN.VA
+  t: CEN.South
+CEN.VA_NDC.VA:
+  label: '='
+  s: CEN.VA
+  t: NDC.VA
+CEN.VT_CEN.Northeast:
+  label: isa
+  s: CEN.VT
+  t: CEN.Northeast
+CEN.VT_NDC.VT:
+  label: '='
+  s: CEN.VT
+  t: NDC.VT
+CEN.WA_CEN.West:
+  label: isa
+  s: CEN.WA
+  t: CEN.West
+CEN.WA_NDC.WA:
+  label: '='
+  s: CEN.WA
+  t: NDC.WA
+CEN.WI_CEN.Midwest:
+  label: isa
+  s: CEN.WI
+  t: CEN.Midwest
+CEN.WI_NDC.WI:
+  label: '='
+  s: CEN.WI
+  t: NDC.WI
+CEN.WV_CEN.South:
+  label: isa
+  s: CEN.WV
+  t: CEN.South
+CEN.WV_NDC.WV:
+  label: '='
+  s: CEN.WV
+  t: NDC.WV
+CEN.WY_CEN.West:
+  label: isa
+  s: CEN.WY
+  t: CEN.West
+CEN.WY_NDC.WY:
+  label: '='
+  s: CEN.WY
+  t: NDC.WY
+CEN.West_CEN.USA:
+  label: isa
+  s: CEN.West
+  t: CEN.USA
+NDC.AL_NDC.Southeast:
+  label: isa
+  s: NDC.AL
+  t: NDC.Southeast
+NDC.AR_NDC.Southeast:
+  label: isa
+  s: NDC.AR
+  t: NDC.Southeast
+NDC.AZ_NDC.Southwest:
+  label: isa
+  s: NDC.AZ
+  t: NDC.Southwest
+NDC.CA_NDC.West:
+  label: isa
+  s: NDC.CA
+  t: NDC.West
+NDC.CO_NDC.West:
+  label: isa
+  s: NDC.CO
+  t: NDC.West
+NDC.CT_NDC.Northeast:
+  label: isa
+  s: NDC.CT
+  t: NDC.Northeast
+NDC.DC_NDC.Northeast:
+  label: isa
+  s: NDC.DC
+  t: NDC.Northeast
+NDC.DE_NDC.Northeast:
+  label: isa
+  s: NDC.DE
+  t: NDC.Northeast
+NDC.FL_NDC.Southeast:
+  label: isa
+  s: NDC.FL
+  t: NDC.Southeast
+NDC.GA_NDC.Southeast:
+  label: isa
+  s: NDC.GA
+  t: NDC.Southeast
+NDC.IA_NDC.Midwest:
+  label: isa
+  s: NDC.IA
+  t: NDC.Midwest
+NDC.ID_NDC.West:
+  label: isa
+  s: NDC.ID
+  t: NDC.West
+NDC.IL_NDC.Midwest:
+  label: isa
+  s: NDC.IL
+  t: NDC.Midwest
+NDC.IN_NDC.Midwest:
+  label: isa
+  s: NDC.IN
+  t: NDC.Midwest
+NDC.KS_NDC.Midwest:
+  label: isa
+  s: NDC.KS
+  t: NDC.Midwest
+NDC.KY_NDC.Southeast:
+  label: isa
+  s: NDC.KY
+  t: NDC.Southeast
+NDC.LA_NDC.Southeast:
+  label: isa
+  s: NDC.LA
+  t: NDC.Southeast
+NDC.MA_NDC.Northeast:
+  label: isa
+  s: NDC.MA
+  t: NDC.Northeast
+NDC.MD_NDC.Northeast:
+  label: isa
+  s: NDC.MD
+  t: NDC.Northeast
+NDC.ME_NDC.Northeast:
+  label: isa
+  s: NDC.ME
+  t: NDC.Northeast
+NDC.MI_NDC.Midwest:
+  label: isa
+  s: NDC.MI
+  t: NDC.Midwest
+NDC.MN_NDC.Midwest:
+  label: isa
+  s: NDC.MN
+  t: NDC.Midwest
+NDC.MO_NDC.Midwest:
+  label: isa
+  s: NDC.MO
+  t: NDC.Midwest
+NDC.MS_NDC.Southeast:
+  label: isa
+  s: NDC.MS
+  t: NDC.Southeast
+NDC.MT_NDC.West:
+  label: isa
+  s: NDC.MT
+  t: NDC.West
+NDC.Midwest_NDC.USA:
+  label: isa
+  s: NDC.Midwest
+  t: NDC.USA
+NDC.NC_NDC.Southeast:
+  label: isa
+  s: NDC.NC
+  t: NDC.Southeast
+NDC.ND_NDC.Midwest:
+  label: isa
+  s: NDC.ND
+  t: NDC.Midwest
+NDC.NE_NDC.Midwest:
+  label: isa
+  s: NDC.NE
+  t: NDC.Midwest
+NDC.NH_NDC.Northeast:
+  label: isa
+  s: NDC.NH
+  t: NDC.Northeast
+NDC.NJ_NDC.Northeast:
+  label: isa
+  s: NDC.NJ
+  t: NDC.Northeast
+NDC.NM_NDC.Southwest:
+  label: isa
+  s: NDC.NM
+  t: NDC.Southwest
+NDC.NV_NDC.West:
+  label: isa
+  s: NDC.NV
+  t: NDC.West
+NDC.NY_NDC.Northeast:
+  label: isa
+  s: NDC.NY
+  t: NDC.Northeast
+NDC.Northeast_NDC.USA:
+  label: isa
+  s: NDC.Northeast
+  t: NDC.USA
+NDC.OH_NDC.Midwest:
+  label: isa
+  s: NDC.OH
+  t: NDC.Midwest
+NDC.OK_NDC.Southwest:
+  label: isa
+  s: NDC.OK
+  t: NDC.Southwest
+NDC.OR_NDC.West:
+  label: isa
+  s: NDC.OR
+  t: NDC.West
+NDC.PA_NDC.Northeast:
+  label: isa
+  s: NDC.PA
+  t: NDC.Northeast
+NDC.RI_NDC.Northeast:
+  label: isa
+  s: NDC.RI
+  t: NDC.Northeast
+NDC.SC_NDC.Southeast:
+  label: isa
+  s: NDC.SC
+  t: NDC.Southeast
+NDC.SD_NDC.Midwest:
+  label: isa
+  s: NDC.SD
+  t: NDC.Midwest
+NDC.Southeast_NDC.USA:
+  label: isa
+  s: NDC.Southeast
+  t: NDC.USA
+NDC.Southwest_NDC.USA:
+  label: isa
+  s: NDC.Southwest
+  t: NDC.USA
+NDC.TN_NDC.Southeast:
+  label: isa
+  s: NDC.TN
+  t: NDC.Southeast
+NDC.TX_NDC.Southwest:
+  label: isa
+  s: NDC.TX
+  t: NDC.Southwest
+NDC.UT_NDC.West:
+  label: isa
+  s: NDC.UT
+  t: NDC.West
+NDC.VA_NDC.Southeast:
+  label: isa
+  s: NDC.VA
+  t: NDC.Southeast
+NDC.VT_NDC.Northeast:
+  label: isa
+  s: NDC.VT
+  t: NDC.Northeast
+NDC.WA_NDC.West:
+  label: isa
+  s: NDC.WA
+  t: NDC.West
+NDC.WI_NDC.Midwest:
+  label: isa
+  s: NDC.WI
+  t: NDC.Midwest
+NDC.WV_NDC.Southeast:
+  label: isa
+  s: NDC.WV
+  t: NDC.Southeast
+NDC.WY_NDC.West:
+  label: isa
+  s: NDC.WY
+  t: NDC.West
+NDC.West_NDC.USA:
+  label: isa
+  s: NDC.West
+  t: NDC.USA
